@@ -1,0 +1,11 @@
+{
+  "name": "eleventy-serverless-color-contrast",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Myers <ben@benmyers.dev>",
+  "license": "ISC"
+}
