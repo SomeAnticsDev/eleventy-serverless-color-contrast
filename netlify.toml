@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/:color1/:color2/"
+to = "/.netlify/functions/ondemand"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "ondemand"

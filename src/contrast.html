@@ -1,0 +1,23 @@
+---
+permalink:
+  ondemand: /:color1/:color2/
+eleventyComputed:
+  color1: "#{{ eleventy.serverless.path.color1 }}"
+  color2: "#{{ eleventy.serverless.path.color2 }}"
+---
+{{ color1 | log }}
+{{ color2 | log }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+		<p>{{ eleventy.serverless.path.color1 }} and {{ eleventy.serverless.path.color2 }} have a ratio of {{ color1 | colorContrast: color2 }}</p>
+	</main>
+</body>
+</html>
