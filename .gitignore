@@ -4,3 +4,5 @@ yarn.lock
 
 netlify/functions/ondemand/*
 !netlify/functions/ondemand/index.js
+# Local Netlify folder
+.netlify
