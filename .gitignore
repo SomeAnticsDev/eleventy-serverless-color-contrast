@@ -1,3 +1,6 @@
 node_modules/
 package-lock.json
 yarn.lock
+
+netlify/functions/ondemand/*
+!netlify/functions/ondemand/index.js
